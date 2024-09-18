@@ -1,0 +1,14 @@
+version: 2
+created_by: Leah Zhang
+seed_examples:
+- answer: 'The first letters of each word in the sentence "I want to go for a walk" are: IWTGFAW'
+  question: "list the first letter of each word in this sentence: I want to go for a walk"
+- answer: 'The first letters of each word in the sentence "the weather is very nice today" are: TWIVNT'
+  question: 'list the first letter of each word in this sentence: the weather is very nice today'
+- answer: 'The first letters of each word in the sentence "my favourite place to go is the beach" are: MFPTGITB'
+  question: 'list the first letter of each word in this sentence: my favourite place to go is the beach'
+- answer: 'The first letters of each word in the sentence "hello world" are: HW'
+  question: 'list the first letter of each word in this sentence: hello world'
+- answer: 'The first letters of each word in the sentence "the door is yellow, the windows are tinted" are: TDIYTWAT'
+  question: 'list the first letter of each word in this sentence: the door is yellow, the windows are tinted'
+task_description: 'To teach a language model to extract the first letter from a series of words'
